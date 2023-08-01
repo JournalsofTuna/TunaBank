@@ -32,7 +32,7 @@ while True:
         print(f"Bakiyeniz: {atm[user]['Bakiye']} TL")
         break
     elif secim == 2:
-        money_out = int(input("Ne Kadar Para Çekmek İstiyorsunuz: "))
+        money_out = int(input("Ne Kadar Para Çekmek İstiyorsunuz:  "))
         if money_out <= atm[user]['Bakiye']:
             atm[user]['Bakiye'] -= money_out
             print("Paranızı Çekebilirsiniz.")
